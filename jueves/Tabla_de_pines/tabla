@@ -1,29 +1,29 @@
 nombre de nodos   i/o     nombre pin    numero pin
 
-a[0]                in        sw9         AE12
-a[1]                          sw8         AD10
-a[2]                          sw7         AC9
-a[3]                          sw6         AE11
-b[0]                 in       sw5         AD12
-b[1]                          sw4         AD11
-b[2]                          sw3         AF10
-b[3]                          sw2         AF9
-seleccion[0]         in    GPIO_0[4]      AK16
-seleccion[1]               GPIO_0[5]      AK17
-seleccion[2]               GPIO_0[6]      AK18
-seleccion[3]               GPIO_0[7]      AJ18
+a[0]                in        sw9         PIN_AE12
+a[1]                          sw8         PIN_AD10
+a[2]                          sw7         PIN_AC9
+a[3]                          sw6         PIN_AE11
+b[0]                 in       sw5         PIN_AD12
+b[1]                          sw4         PIN_AD11
+b[2]                          sw3         PIN_AF10
+b[3]                          sw2         PIN_AF9
+seleccion[0]         in    GPIO_0[4]      PIN_AK16
+seleccion[1]               GPIO_0[5]      PIN_AK18
+seleccion[2]               GPIO_0[6]      PIN_AK19
+seleccion[3]               GPIO_0[7]      PIN_AJ19
 
 nombre de nodos   i/o     nombre pin    numero pin
 
-ci                  in      sw0           AB12
-co                  out    GPIO_0[0]      AC18
-clk                 in    clock_50        AF14
-m                   in      sw1           AC12
+ci                  in      sw0           PIN_AB12
+co                  out    GPIO_0[0]      PIN_AC18
+clk                 in    clock_50        PIN_AF14
+m                   in      sw1           PIN_AC12
 --------------------encenderan leds---------------------------------------
-o[0]                i/o     LEDR9         Y21
-o[1]                        LEDR8         W21
-o[2]                        LEDR7         W20
-o[3]                        LEDR6         Y19
+o[0]                i/o     LEDR9         PIN_Y21
+o[1]                        LEDR8         PIN_W21
+o[2]                        LEDR7         PIN_W20
+o[3]                        LEDR6         PIN_Y19
 --------------comiensan displays --------------------------
 --------- el segmento a en la tabla es el cero y en los puertos el mismo segmento es 6
 --                     ________
@@ -37,36 +37,36 @@ o[3]                        LEDR6         Y19
 _____________________________________________________________________________
 nombre de nodos   i/o     nombre pin    numero pin
 
-salida_a[0]         out     HEX5[6]        AA25
-salida_a[1]                 HEX5[5]        AA26
-salida_a[2]                 HEX5[4]        AB26
-salida_a[3]                 HEX5[3]        AB27
-salida_a[4]                 HEX5[2]        Y27
-salida_a[5]                 HEX5[1]        AA28
-salida_a[6]                 HEX5[0]        V25
+salida_a[0]         out     HEX5[6]        PIN_AA25
+salida_a[1]                 HEX5[5]        PIN_AA26
+salida_a[2]                 HEX5[4]        PIN_AB26
+salida_a[3]                 HEX5[3]        PIN_AB27
+salida_a[4]                 HEX5[2]        PIN_Y27
+salida_a[5]                 HEX5[1]        PIN_AA28
+salida_a[6]                 HEX5[0]        PIN_V25
 ----------------------------------------------------------------------------
-salida_b[0]         out     HEX4[6]        W25
-salida_b[1]                 HEX4[5]        V23
-salida_b[2]                 HEX4[4]        W24
-salida_b[3]                 HEX4[3]        W22
-salida_b[4]                 HEX4[2]        Y24
-salida_b[5]                 HEX4[1]        Y23
-salida_b[6]                 HEX4[0]        AA24
+salida_b[0]         out     HEX4[6]        PIN_W25
+salida_b[1]                 HEX4[5]        PIN_V23
+salida_b[2]                 HEX4[4]        PIN_W24
+salida_b[3]                 HEX4[3]        PIN_W22
+salida_b[4]                 HEX4[2]        PIN_Y24
+salida_b[5]                 HEX4[1]        PIN_Y23
+salida_b[6]                 HEX4[0]        PIN_AA24
 -----------------------------------------------------------------------------
 nombre de nodos   i/o     nombre pin    numero pin
 
-salida_alu[0]       out     HEX3[6]        AB22
-salida_alu[1]               HEX3[5]        AB25
-salida_alu[2]               HEX3[4]        AB28
-salida_alu[3]               HEX3[3]        AC25
-salida_alu[4]               HEX3[2]        AD25
-salida_alu[5]               HEX3[1]        AC27
-salida_alu[6]               HEX3[0]        AD26
+salida_alu[0]       out     HEX3[6]        PIN_AB22
+salida_alu[1]               HEX3[5]        PIN_AB25
+salida_alu[2]               HEX3[4]        PIN_AB28
+salida_alu[3]               HEX3[3]        PIN_AC25
+salida_alu[4]               HEX3[2]        PIN_AD25
+salida_alu[5]               HEX3[1]        PIN_AC27
+salida_alu[6]               HEX3[0]        PIN_AD26
 -----------------------------------------------------------------------------
-salida_seleccion[0] out     HEX1[6]        AD27
-salida_seleccion[1]         HEX1[5]        AF30
-salida_seleccion[2]         HEX1[4]        AF29
-salida_seleccion[3]         HEX1[3]        AG30
-salida_seleccion[4]         HEX1[2]        AH30
-salida_seleccion[5]         HEX1[1]        AH29
-salida_seleccion[6]         HEX1[0]        AJ29
+salida_seleccion[0] out     HEX1[6]        PIN_AD27
+salida_seleccion[1]         HEX1[5]        PIN_AF30
+salida_seleccion[2]         HEX1[4]        PIN_AF29
+salida_seleccion[3]         HEX1[3]        PIN_AG30
+salida_seleccion[4]         HEX1[2]        PIN_AH30
+salida_seleccion[5]         HEX1[1]        PIN_AH29
+salida_seleccion[6]         HEX1[0]        PIN_AJ29

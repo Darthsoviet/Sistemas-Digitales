@@ -1,5 +1,5 @@
 Analysis & Synthesis report for juevesCalculadora
-Thu Jun 20 21:59:02 2019
+Thu Jun 20 23:47:30 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Jun 20 21:59:02 2019       ;
+; Analysis & Synthesis Status     ; Successful - Thu Jun 20 23:47:30 2019       ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                   ; juevesCalculadora                           ;
 ; Top-level Entity Name           ; calculadora                                 ;
@@ -289,7 +289,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Thu Jun 20 21:58:20 2019
+    Info: Processing started: Thu Jun 20 23:47:10 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off juevesCalculadora -c juevesCalculadora
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -453,9 +453,9 @@ Info (21057): Implemented 209 device resources after synthesis - the final resou
     Info (21060): Implemented 4 bidirectional pins
     Info (21061): Implemented 161 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 135 warnings
-    Info: Peak virtual memory: 5085 megabytes
-    Info: Processing ended: Thu Jun 20 21:59:02 2019
-    Info: Elapsed time: 00:00:42
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 5086 megabytes
+    Info: Processing ended: Thu Jun 20 23:47:30 2019
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:45
 
 
