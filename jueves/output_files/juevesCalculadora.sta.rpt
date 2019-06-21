@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for juevesCalculadora
-Thu Jun 20 21:35:41 2019
+Thu Jun 20 22:00:16 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -98,14 +98,14 @@ agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.07        ;
+; Average used               ; 1.06        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.2%      ;
-;     Processor 3            ;   2.2%      ;
-;     Processor 4            ;   2.2%      ;
+;     Processor 2            ;   1.9%      ;
+;     Processor 3            ;   1.9%      ;
+;     Processor 4            ;   1.9%      ;
 +----------------------------+-------------+
 
 
@@ -681,7 +681,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Thu Jun 20 21:35:33 2019
+    Info: Processing started: Thu Jun 20 22:00:06 2019
 Info: Command: quartus_sta juevesCalculadora -c juevesCalculadora
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -741,9 +741,9 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5380 megabytes
-    Info: Processing ended: Thu Jun 20 21:35:41 2019
-    Info: Elapsed time: 00:00:08
+    Info: Peak virtual memory: 5381 megabytes
+    Info: Processing ended: Thu Jun 20 22:00:16 2019
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:07
 
 

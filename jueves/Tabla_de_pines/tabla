@@ -1,0 +1,72 @@
+nombre de nodos   i/o     nombre pin    numero pin
+
+a[0]                in        sw9         AE12
+a[1]                          sw8         AD10
+a[2]                          sw7         AC9
+a[3]                          sw6         AE11
+b[0]                 in       sw5         AD12
+b[1]                          sw4         AD11
+b[2]                          sw3         AF10
+b[3]                          sw2         AF9
+seleccion[0]         in    GPIO_0[4]      AK16
+seleccion[1]               GPIO_0[5]      AK17
+seleccion[2]               GPIO_0[6]      AK18
+seleccion[3]               GPIO_0[7]      AJ18
+
+nombre de nodos   i/o     nombre pin    numero pin
+
+ci                  in      sw0           AB12
+co                  out    GPIO_0[0]      AC18
+clk                 in    clock_50        AF14
+m                   in      sw1           AC12
+--------------------encenderan leds---------------------------------------
+o[0]                i/o     LEDR9         Y21
+o[1]                        LEDR8         W21
+o[2]                        LEDR7         W20
+o[3]                        LEDR6         Y19
+--------------comiensan displays --------------------------
+--------- el segmento a en la tabla es el cero y en los puertos el mismo segmento es 6
+--                     ________
+--                    | a=0    |
+--                    |f=5     |b=1
+--                 g=6|________|
+--                    |        |
+--                    |e=4     |c=2
+--                    |________|
+--                       d=3
+_____________________________________________________________________________
+nombre de nodos   i/o     nombre pin    numero pin
+
+salida_a[0]         out     HEX5[6]        AA25
+salida_a[1]                 HEX5[5]        AA26
+salida_a[2]                 HEX5[4]        AB26
+salida_a[3]                 HEX5[3]        AB27
+salida_a[4]                 HEX5[2]        Y27
+salida_a[5]                 HEX5[1]        AA28
+salida_a[6]                 HEX5[0]        V25
+----------------------------------------------------------------------------
+salida_b[0]         out     HEX4[6]        W25
+salida_b[1]                 HEX4[5]        V23
+salida_b[2]                 HEX4[4]        W24
+salida_b[3]                 HEX4[3]        W22
+salida_b[4]                 HEX4[2]        Y24
+salida_b[5]                 HEX4[1]        Y23
+salida_b[6]                 HEX4[0]        AA24
+-----------------------------------------------------------------------------
+nombre de nodos   i/o     nombre pin    numero pin
+
+salida_alu[0]       out     HEX3[6]        AB22
+salida_alu[1]               HEX3[5]        AB25
+salida_alu[2]               HEX3[4]        AB28
+salida_alu[3]               HEX3[3]        AC25
+salida_alu[4]               HEX3[2]        AD25
+salida_alu[5]               HEX3[1]        AC27
+salida_alu[6]               HEX3[0]        AD26
+-----------------------------------------------------------------------------
+salida_seleccion[0] out     HEX1[6]        AD27
+salida_seleccion[1]         HEX1[5]        AF30
+salida_seleccion[2]         HEX1[4]        AF29
+salida_seleccion[3]         HEX1[3]        AG30
+salida_seleccion[4]         HEX1[2]        AH30
+salida_seleccion[5]         HEX1[1]        AH29
+salida_seleccion[6]         HEX1[0]        AJ29
