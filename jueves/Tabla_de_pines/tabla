@@ -4,19 +4,21 @@ a[0]                in        sw9         PIN_AE12
 a[1]                          sw8         PIN_AD10
 a[2]                          sw7         PIN_AC9
 a[3]                          sw6         PIN_AE11
+-------------------------------------------------------
 b[0]                 in       sw5         PIN_AD12
 b[1]                          sw4         PIN_AD11
 b[2]                          sw3         PIN_AF10
 b[3]                          sw2         PIN_AF9
-seleccion[0]         in    GPIO_0[4]      PIN_AK16
-seleccion[1]               GPIO_0[5]      PIN_AK18
-seleccion[2]               GPIO_0[6]      PIN_AK19
-seleccion[3]               GPIO_0[7]      PIN_AJ19
+------------------------------------------------------
+seleccion[0]         in    KEY[0]         PIN_AA14
+seleccion[1]               KEY[1]         PIN_AA15
+seleccion[2]               KEY[2]         PIN_W15
+seleccion[3]               KEY[3]         PIN_Y16
 
 nombre de nodos   i/o     nombre pin    numero pin
 
 ci                  in      sw0           PIN_AB12
-co                  out    GPIO_0[0]      PIN_AC18
+co                  out    LEDR0          PIN_V16      leed
 clk                 in    clock_50        PIN_AF14
 m                   in      sw1           PIN_AC12
 --------------------encenderan leds---------------------------------------
