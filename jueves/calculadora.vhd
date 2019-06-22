@@ -22,6 +22,25 @@ entity calculadora is
 end calculadora;
 
 architecture comportamiento of calculadora is
+  -- se instanciara ALU x1
+  --                       ALU
+  --                  a(4)        b(4)
+  --                    ___       ___
+  --              s(4)_\   \    /   /
+  --                clk >   \  /   /
+  --                   m_\   \/   /_co
+  --                   ci_\______/
+  --                          |o(4)
+  --________________________________________________
+  --       se instanciaron Decodificador x4
+  --               decodificador de 4 bits
+  --                         _______
+  --                   E1 __|      |
+  --                   E2 __| deco |___o(7)
+ --                    E3 __|      |
+ --                    E4 __|__^___|
+  --                          clk
+  --
 ------------------------------------------------
 --aqui se instancia el decodificador
 component decodificador is
@@ -42,7 +61,7 @@ component ALU192CIK is
  		co: out std_logic);
 end component;
 --------------------------------
---aqui se inicialisan los cables dx
+--aqui se inicializan los cables dx
 signal pa,pb,po:  std_logic_vector(1 downto 0);
 signal pseleccion,psalida,pentrada,psalida2 :  std_logic_vector(3 downto 0);
 signal pm,pci,pclk,pco: std_logic;

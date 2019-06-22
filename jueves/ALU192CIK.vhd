@@ -4,14 +4,31 @@ library ieee;
  use ieee.std_logic_unsigned.all;
 
  entity ALU192CIK is
- port(a, b : in std_logic_vector (3 downto 0);
-		seleccion : in std_logic_vector (3 downto 0);
-		m,ci,clk:in std_logic;
-		o:out std_logic_vector(3 downto 0);
-		co:out std_logic);
+ port(
+ --------entradas--señales--------
+ a,
+ b : in std_logic_vector (3 downto 0);
+ ----------entradas de seleccion----------------
+ seleccion : in std_logic_vector (3 downto 0);
+ m,
+ ci,
+ -----------------reloj 50Mhz------------------
+ clk:in std_logic;
+ ------------------salidas------------------
+ o:out std_logic_vector(3 downto 0);
+ co:out std_logic);
+
 	end ALU192CIK;
 
 	architecture funcionamiento of ALU192CIK is
+--                 ALU
+--                  a(4)        b(4)
+--                    ___       ___
+--              s(4)_\   \    /   /
+--                clk >   \  /   /
+--                   m_\   \/   /_co
+--                   ci_\______/
+--                          |o(4)
 	begin
 
 	process(clk)
@@ -62,7 +79,7 @@ library ieee;
 				when "1111" => o <= a-1;
 				when others => o<="0000";
 			end case;
-      ----------------cuando no se quiere acarreo 
+      ----------------cuando no se quiere acarreo
 		elsif (ci='0') then
 			case seleccion is
 				when "0000" => o <= a+1;
